@@ -1,0 +1,5 @@
+IMG_NAME=gan
+FIRST_USER_NAME=gan
+FIRST_USER_PASS="gan as in feel"
+ENABLE_SSH=1
+

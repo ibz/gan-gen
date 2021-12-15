@@ -1,0 +1,8 @@
+source gan-config
+source user-config
+
+if [ -z "$TARGET_HOSTNAME" ] || [ -z "$TIMEZONE_DEFAULT" ] || [ -z "$WPA_COUNTRY" ] || [ -z "$WPA_ESSID" ] || [ -z "$WPA_PASSWORD" ]; then
+  echo "Make sure TARGET_HOSTNAME, TARGET_HOSTNAME, WPA_COUNTRY, WPA_ESSID and WPA_PASSWORD are set in user-config!"
+  exit 1
+fi
+
