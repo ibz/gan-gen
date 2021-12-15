@@ -2,6 +2,8 @@
 
 Tool used to create Raspberry Pi OS images intended to be run on Raspberry Pi Zero machines with attached temperature sensors.
 
+[`gan`](https://github.com/ibz/gan) will be used to actually perform the sensor readings while [`stasi`](https://github.com/ibz/stasi) will be used to centralize readings from multiple sensors and generate graphs.
+
 ## Config
 
 Upon execution, `build.sh` will source the file `user-config` in the current
